@@ -1,0 +1,55 @@
+# django install
+pip install django
+
+# check django version
+python -m 
+
+#starting project 
+django-admin startproject paychantae name
+django-admin startproject wpj1
+
+cd into project name
+cd wpj1
+
+# show files and folder
+dir or ls
+# ready ornot!
+python manage.py runserver
+
+# create application
+python manage.py startapp paychintae appname
+python manage.py startapp record
+#server stop
+ctrl+c
+
+
+
+-module(django)
+  -project(Facebook)
+   -application(facebllk post)(mesenger)(ig)
+    -modal
+
+module(django)
+  -project(wpj1)(facebook)
+   -application(record)(post,messenger)
+    -modal(models.py)
+
+->file and folder Expression
+->wpj1(project )
+  ->record(ap)
+   ->admin.py
+   ->modal.py
+    
+  ->wpj1(pj settin folder)
+    ->settings.py
+  ->db.sqlite3
+  ->manage.py(server)
+
+  register app in pj settings Install App
+
+  #set up database file in django
+  python manage.py migrate
+
+  # register in admin panel
+  from.models import record
+  admin.site.
